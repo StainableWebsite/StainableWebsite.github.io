@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+{% block nav %}
+<div class="navbar">
+    <a href="/map">Return to map</a>
+    <div class="dropdown">
+      <button class="dropbtn">Carbon Emissions of Countries
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content1">
+        <a href="/about_australia">Australia</a>
+        <a href="/about_brazil">Brazil</a>
+        <a href="/about_china">China</a>
+        <a href="/about_germany">Germany</a>
+        <a href="/about_russia">Russia</a>
+        <a href="/about_southafrica">South Africa</a>
+        <a href="/about_us">United States</a>
+      </div>
+    </div>
+    <a href="/make_a_difference">Take Action</a>
+    <a href="/learn_more">Learn more</a>
+  </div>
+{% endblock %}
+{% block body %}
+<h1>Learn more</h1>
+<p class="intro_cause">Below are several interesting recent websites to teach you more about you personal carbon emissions and ways to donate. Feel free to save them and read them later!</p>
+<br><br>
+<p class="general_info"><b>Learn more: Interesting websites about carbon emissions</b></p>
+<ul>
+  <li class="intro_cause"><a href="https://www.vox.com/future-perfect/2019/12/2/20976180/climate-change-best-charities-effective-philanthropy">Want to fight climate change effectively? Here's where to donate your money.</a></li>
+  <li class="intro_cause"><a href="https://time.com/6213470/offsets-donate-climate-action/">Donating to Climate Charities Might Be Better Than Buying Carbon Offsets</a></li>
+  <li class="intro_cause"><a href="https://kinsta.com/blog/zero-carbon-websites/">Greening the Web: How We Can Create Zero Carbon Websites</a></li>
+</ul>
+<br>
+<p class="general_info"><b>Carbon calculators</b></p>
+<ul>
+  <li class="intro_cause"><a href="https://www.websitecarbon.com/">Website Carbon calculator</a></li>
+  <li class="intro_cause"><a href="https://climateactiontracker.org/">Climate Action Tracker for different countries</a></li>
+  <li class="intro_cause"><a href="https://coolclimate.berkeley.edu/calculator">Quick Carbon footprint estimate</a></li>
+  <li class="intro_cause"><a href="https://footprint.wwf.org.uk/#/">Questionnaire: How Big is your enviornmental footprint?</a></li>
+</ul>
+<br><br><br><br><br>
+<br><br><br><br><br>
+{% endblock %}

@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+{% block nav %}
+<div class="navbar">
+  <a href="/map">Return to map</a>
+  <div class="dropdown">
+    <button class="dropbtn">Other Countries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/about_brazil">Brazil</a>
+      <a href="/about_china">China</a>
+      <a href="/about_germany">Germany</a>
+      <a href="/about_russia">Russia</a>
+      <a href="/about_southafrica">South Africa</a>
+      <a href="/about_us">United States</a>
+    </div>
+  </div>
+  <a href="/make_a_difference">Take Action</a>
+  <a href="/learn_more">Learn more</a>
+</div>
+{% endblock %}
+{% block body %}
+<h1>Australia</h1>
+
+<p class="general_info"><b>Country name: </b>Australia</p>
+<p class="general_info"><b>GDP: </b>$48,700 (2020 est.)</p>
+<p class="general_info"><b>Population: </b>26,141,369 (2022 est.)</p>
+<p class="general_info"><b>Sustainable Development Index: </b>38 (Rank) 75.38 (Score)</p>
+<p class="general_info"><b>Happiness Index: </b>12</p>
+<p class="general_info"><b>Current carbon footprint: </b>15.09 tonnes</p>
+<br><br><br>
+
+<p class="general_info"><b>How did we get there?</b></p>
+<p class="intro_cause">Energy production is the largest contributor to Australia's carbon emissions. This is followed by transport, agriculture, and industrial processes.</p>
+
+
+<div class="flexboxContainer">
+  <img width="350" height="200" src="static/img/Energy.jpg">
+  <div class="flexItem2">
+    <p class="cause"><b>Energy (Electricity): </b>187.5 Mt CO2-e (or 35% of the total emissions) were produced by fuel combustion to make electricity (on- and off-grid).</p>
+    <p class="cause"><b>Energy (Direct combustion): </b>94.5 Mt CO2-e (18%) were produced by fuel combustion directly used in energy, mining, manufacturing, buildings and primary industries. Direct combustion excludes electricity use and transport.</p>
+  </div>
+</div>
+
+<div class="flexboxContainer">
+  <div class="flexItem1">
+    <p class="cause"><b>Transport: </b>93 Mt CO2-e (17%) came from fuel combustion used in road, rail, domestic shipping and aviation, off-road recreational vehicles and pipeline transport.</p>
+  </div>
+  <img width="350" height="200" src="static/img/Transport.jpg">
+</div>
+
+<div class="flexboxContainer">
+  <img width="350" height="200" src="static/img/Agriculture.jpg">
+  <div class="flexItem2">
+    <p class="cause"><b>Agriculture: </b>68.5 Mt CO2-e (13%) were produced from livestock (approximately 70% of agricultural emissions), application of fertilisers and soil additives, soil emissions and burning of agricultural residues.</p>
+  </div>
+</div>
+
+<div class="flexboxContainer">
+  <div class="flexItem1">
+    <p class="cause"><b>Fugitive emissions: </b>39.6 Mt CO2-e (7%) were produced from fugitive gas emissions from coal, natural gas and oil extraction, processing and supply. Fugitive emissions can be unintentional (for example, a leak) or intentional (such as the burning of waste gases). The main source is coal mines (66%), with underground coal mines producing more than surface mines.</p>
+  </div>
+  <img width="350" height="200" src="static/img/Emissions.jpg">
+</div>
+
+<div class="flexboxContainer">
+  <img width="350" height="200" src="static/img/Industry.jpg">
+  <div class="flexItem2">
+    <p class="cause"><b>Industrial processes: </b>33.7 Mt CO2-e (6%) were produced from industrial and production processes that do not create energy. This includes metal production, chemical industry processes and synthetic gas production and use (for example, hydrofluorocarbons).</p>
+  </div>
+</div>
+
+<div class="flexboxContainer">
+  <div class="flexItem1">
+    <p class="cause"><b>Waste: </b>12 Mt CO2-e (2%) were produced from waste decomposition, treatment and combustion. This includes solid waste in landfill (the major source in this category), waste in wastewater and compost.</p>
+  </div>
+  <img width="350" height="200" src="static/img/Waste.jpg">
+</div>
+
+<div class="flexboxContainer">
+  <img width="350" height="200" src="static/img/forestry.jpg">
+  <div class="flexItem2">
+    <p class="cause"><b>Land use, land use change and forestry: </b>6.5 Mt CO2-e (1%) were produced from deforestation (such as land clearing), reforestation, revegetation and forest, crop and grazing lands management. There is a greater level of uncertainty in calculating emissions for this sector.</p>
+  </div>
+</div>
+
+
+<br>
+<p class="general_info"><b>What is being done about it?</b></p>
+<p class="intro_cause">The Emissions Reduction Fund (ERF) is now the centrepiece of the Australian Government’s current policies to limit greenhouse gas emissions. The Government is relying on the ERF, as well as a number of other policies, to reduce our greenhouse gas emissions, and meet our 2030 climate target. These policies are designed to reduce emissions, increase energy productivity, and boost the uptake of renewable energy. The ERF is a voluntary scheme designed to provide financial incentives for businesses, landholders and communities to reduce emissions. Under the ERF, the Government purchases greenhouse gas abatement, quantified by Australian Carbon Credit Units through an auction process administered by the Clean Energy Regulator. Before a project can participate (or bid) in an ERF auction, it must be eligible and registered with the Clean Energy Regulator. A range of projects to reduce emissions have been funded under the ERF so far. These include, for example, projects to replace Melbourne street lights with more energy efficient light bulbs, native forest and vegetation regrowth projects and the use of gas from waste to create energy.</p>
+<br><br><br><br><br>
+<br><br><br><br><br>
+
+{% endblock %}
